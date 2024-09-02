@@ -109,7 +109,38 @@ nav a{
     color: var(--primary);
 }
 
+.over{
+    width: 100%;
+    min-height: 500px;
+    background-color: var(--Secondary);
+    display: flex;
+    justify-content: center;
+}
 
+.over-main{
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+}
+
+.over-main h1{
+    font-size: 40px;
+    font-weight: 800;
+    padding-bottom: 30px;
+    margin-top: 20px;
+    color: var(--primary);
+}
+
+.over-main p{
+    color: rgb(39, 39, 39);
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.bold{
+    font-weight: 900;
+}
 
 .button-main {
     border: 2px solid white;
