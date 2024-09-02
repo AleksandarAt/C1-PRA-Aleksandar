@@ -60,7 +60,7 @@ nav a{
     }
   }
 
-.main{
+  .main {
     display: flex;
     width: 100%;
     height: 90vh;
@@ -71,7 +71,10 @@ nav a{
     line-height: 80px;
     letter-spacing: 2px;
     color: var(--primary);
-    background-color: white;
+    background-image: url('img/back.png'); /* Zorg ervoor dat dit pad correct is */
+    background-size: cover; 
+    background-position: center; /* Centreert de afbeelding in het midden van het element */
+    background-repeat: no-repeat; /* Voorkomt dat de afbeelding herhaald wordt */
 }
 
 .knopen{
