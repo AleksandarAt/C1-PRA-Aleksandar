@@ -101,14 +101,6 @@ nav a{
     text-align: center;
 }
 
-.footer-main h1{
-    font-size: 40px;
-    font-weight: 800;
-    padding-bottom: 30px;
-    margin-top: 20px;
-    color: var(--primary);
-}
-
 .over{
     width: 100%;
     min-height: 500px;
