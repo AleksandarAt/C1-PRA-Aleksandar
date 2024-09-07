@@ -200,6 +200,94 @@ nav a{
     box-shadow: 20px 4px 10px rgba(0, 0, 0, 0.1); 
     border-radius: 20px;
 }
+.jaaroverzicht {
+    width: 100%;
+    background-color: var(--Secondary);
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.jaaroverzicht-main {
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.jaaroverzicht-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.jaaroverzicht-image {
+    flex: 1;
+    max-width: 50%;
+    text-align: left;
+    margin-right: 50px;
+}
+
+.jaaroverzicht-image h1 {
+    font-size: 40px;
+    font-weight: 800;
+    color: var(--primary);
+    margin-bottom: 40px;
+}
+
+.jaaroverzicht-image img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    box-shadow: 20px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+
+.jaaroverzicht-center {
+    flex: 1;
+    max-width: 50%;
+    text-align: center;
+}
+
+.jaaroverzicht-center h2 {
+    font-size: 40px;
+    font-weight: 800;
+    color: var(--primary);
+    margin-bottom: 15px;
+}
+
+.jaaroverzicht-center p {
+    font-size: 18px;
+    color: var(--textColor);
+    max-width: 100%;
+}
+
+@media (max-width: 768px) {
+    .jaaroverzicht-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .jaaroverzicht-image {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .jaaroverzicht-center {
+        max-width: 100%;
+        text-align: center;
+    }
+}
+
+.jaaroverzicht-text {
+    font-size: 18px;
+    line-height: 1.6;
+    color: var(--textColor);
+    margin-bottom: 15px;
+    max-width: 100%;
+}
 .docenten{
     width: 100%;
     min-height: 500px;
