@@ -242,6 +242,14 @@ nav a{
     box-shadow: 20px 4px 10px rgba(0, 0, 0, 0.1); 
     border-radius: 20px;
 }
+
+@media (max-width: 768px) {
+    .rooster-content {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
 .jaaroverzicht {
     width: 100%;
     background-color: var(--Secondary);
